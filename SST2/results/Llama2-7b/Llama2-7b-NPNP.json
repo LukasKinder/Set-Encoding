@@ -1,0 +1,23 @@
+{
+    "model": "meta-llama/Llama-2-7b-hf",
+    "order": [
+        "Negative",
+        "Positive",
+        "Negative",
+        "Positive"
+    ],
+    "accuracy": 0.9521452145214522,
+    "fraction_pos": 0.528052805280528,
+    "f1_score": 0.9534510433386838,
+    "confusion_matrix": [
+        [
+            840,
+            69
+        ],
+        [
+            18,
+            891
+        ]
+    ],
+    "exactly_the_same": 13
+}

@@ -76,7 +76,7 @@ with torch.no_grad():
     )
 
 # Decode the generated tokens
-answers = [tokenizer.decode(output,skip_special_tokens=True) for output in outputs]
+answers = [tokenizer.decode(output,skip_special_tokens=False) for output in outputs]
 
 # Print the answers
 for i, answer in enumerate(answers):

@@ -1,0 +1,23 @@
+{
+    "model": "microsoft/Phi-3-mini-4k-instruct",
+    "order": [
+        "Negative",
+        "Positive",
+        "Positive",
+        "Negative"
+    ],
+    "accuracy": 0.9581958195819582,
+    "fraction_pos": 0.4735973597359736,
+    "f1_score": 0.9570621468926553,
+    "confusion_matrix": [
+        [
+            895,
+            14
+        ],
+        [
+            62,
+            847
+        ]
+    ],
+    "exactly_the_same": 9
+}

@@ -1,0 +1,23 @@
+{
+    "model": "meta-llama/Llama-2-7b-chat-hf",
+    "order": [
+        "Positive",
+        "Positive",
+        "Negative",
+        "Negative"
+    ],
+    "accuracy": 0.9499449944994499,
+    "fraction_pos": 0.5302530253025303,
+    "f1_score": 0.9514148424986653,
+    "confusion_matrix": [
+        [
+            836,
+            73
+        ],
+        [
+            18,
+            891
+        ]
+    ],
+    "exactly_the_same": 1
+}

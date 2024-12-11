@@ -1,0 +1,23 @@
+{
+    "model": "gpt2",
+    "order": [
+        "Negative",
+        "Positive",
+        "Positive",
+        "Negative"
+    ],
+    "accuracy": 0.5913091309130913,
+    "fraction_pos": 0.5236523652365237,
+    "f1_score": 0.6007522837184309,
+    "confusion_matrix": [
+        [
+            516,
+            393
+        ],
+        [
+            350,
+            559
+        ]
+    ],
+    "exactly_the_same": 1146
+}

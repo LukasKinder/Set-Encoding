@@ -1,0 +1,23 @@
+{
+    "model": "Aleph-Alpha/Pharia-1-LLM-7B-control-hf",
+    "order": [
+        "Positive",
+        "Negative",
+        "Positive",
+        "Negative"
+    ],
+    "accuracy": 0.9235423542354235,
+    "fraction_pos": 0.44334433443344334,
+    "f1_score": 0.9189504373177843,
+    "confusion_matrix": [
+        [
+            891,
+            18
+        ],
+        [
+            121,
+            788
+        ]
+    ],
+    "exactly_the_same": 1
+}

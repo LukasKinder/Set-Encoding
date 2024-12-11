@@ -1,3 +1,6 @@
 [submodule "SetTransformers"]
 	path = SetTransformers
 	url = https://github.com/LukasKinder/SetTransformers
+[submodule "SST2/SST-2-sentiment-analysis"]
+	path = SST2/SST-2-sentiment-analysis
+	url = https://github.com/YJiangcm/SST-2-sentiment-analysis

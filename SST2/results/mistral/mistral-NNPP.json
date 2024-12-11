@@ -1,0 +1,23 @@
+{
+    "model": "mistralai/Mistral-7B-v0.3",
+    "order": [
+        "Negative",
+        "Negative",
+        "Positive",
+        "Positive"
+    ],
+    "accuracy": 0.9603960396039604,
+    "fraction_pos": 0.5022002200220022,
+    "f1_score": 0.960482985729967,
+    "confusion_matrix": [
+        [
+            871,
+            38
+        ],
+        [
+            34,
+            875
+        ]
+    ],
+    "exactly_the_same": 5
+}

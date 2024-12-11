@@ -1,0 +1,23 @@
+{
+    "model": "tiiuae/falcon-7b-instruct",
+    "order": [
+        "Negative",
+        "Positive",
+        "Negative",
+        "Positive"
+    ],
+    "accuracy": 0.8828382838283828,
+    "fraction_pos": 0.46864686468646866,
+    "f1_score": 0.879045996592845,
+    "confusion_matrix": [
+        [
+            831,
+            78
+        ],
+        [
+            135,
+            774
+        ]
+    ],
+    "exactly_the_same": 2
+}
