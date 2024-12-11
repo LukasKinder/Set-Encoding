@@ -4,3 +4,6 @@
 [submodule "SST2/SST-2-sentiment-analysis"]
 	path = SST2/SST-2-sentiment-analysis
 	url = https://github.com/YJiangcm/SST-2-sentiment-analysis
+[submodule "HotpotQA/hotpot"]
+	path = HotpotQA/hotpot
+	url = https://github.com/hotpotqa/hotpot
