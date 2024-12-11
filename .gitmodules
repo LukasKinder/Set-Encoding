@@ -7,3 +7,6 @@
 [submodule "HotpotQA/hotpot"]
 	path = HotpotQA/hotpot
 	url = https://github.com/hotpotqa/hotpot
+[submodule "Multi-News/Multi-News"]
+	path = Multi-News/Multi-News
+	url = https://github.com/Alex-Fabbri/Multi-News
