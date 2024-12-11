@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+        "data_dir": "MMLU_data/filtered_test_final",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 16,
+        "max_batches": 99999,
+        "tokenizer_path": "mistralai/Mistral-7B-Instruct-v0.3",
+        "first_tokens_differ": false
+    },
+    "results": {
+        "n_correct": 4914,
+        "n_questions": 13045,
+        "RTSD": 0.005746712035483891,
+        "accuracy": 0.3766960521272518,
+        "confusion_matrix": [
+            [
+                1265,
+                677,
+                691,
+                682
+            ],
+            [
+                744,
+                1171,
+                623,
+                695
+            ],
+            [
+                634,
+                651,
+                1212,
+                700
+            ],
+            [
+                662,
+                690,
+                682,
+                1266
+            ]
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "finetuned_models/llama-3-normal/checkpoint-20",
+        "data_dir": "MMLU_data/filtered_test",
+        "eval_type": "option",
+        "use_set_encoding": false,
+        "batch_size": 32,
+        "max_batches": 99999,
+        "tokenizer_path": "meta-llama/Meta-Llama-3-8B-instruct",
+        "first_tokens_differ": true
+    },
+    "results": {
+        "n_correct": 3120,
+        "n_questions": 4148,
+        "RTSD": 0.020283040663730538,
+        "accuracy": 0.7521697203471552,
+        "confusion_matrix": [
+            [
+                785,
+                107,
+                82,
+                64
+            ],
+            [
+                77,
+                732,
+                92,
+                76
+            ],
+            [
+                77,
+                103,
+                808,
+                90
+            ],
+            [
+                102,
+                75,
+                83,
+                795
+            ]
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "meta-llama/Meta-Llama-3-8B-instruct",
+        "data_dir": "MMLU_data/filtered_test",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 32,
+        "max_batches": 99999,
+        "tokenizer_path": "meta-llama/Meta-Llama-3-8B-instruct",
+        "first_tokens_differ": true
+    },
+    "results": {
+        "n_correct": 2729,
+        "n_questions": 4148,
+        "RTSD": 0.01452886630517659,
+        "accuracy": 0.6579074252651881,
+        "confusion_matrix": [
+            [
+                702,
+                122,
+                121,
+                128
+            ],
+            [
+                114,
+                663,
+                126,
+                131
+            ],
+            [
+                108,
+                108,
+                668,
+                133
+            ],
+            [
+                117,
+                96,
+                115,
+                696
+            ]
+        ]
+    }
+}

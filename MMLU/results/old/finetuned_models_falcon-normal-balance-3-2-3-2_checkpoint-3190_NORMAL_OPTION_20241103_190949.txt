@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "finetuned_models/falcon-normal-balance-3-2-3-2/checkpoint-3190",
+        "data_dir": "MMLU_data/filtered_test_final",
+        "eval_type": "option",
+        "use_set_encoding": false,
+        "batch_size": 16,
+        "max_batches": 99999,
+        "tokenizer_path": "tiiuae/falcon-7b-instruct",
+        "first_tokens_differ": false
+    },
+    "results": {
+        "n_correct": 3776,
+        "n_questions": 13045,
+        "RTSD": 0.11174445321347797,
+        "accuracy": 0.28945956305097736,
+        "confusion_matrix": [
+            [
+                1577,
+                1401,
+                1389,
+                1441
+            ],
+            [
+                684,
+                824,
+                610,
+                665
+            ],
+            [
+                565,
+                547,
+                719,
+                526
+            ],
+            [
+                462,
+                468,
+                511,
+                656
+            ]
+        ]
+    }
+}

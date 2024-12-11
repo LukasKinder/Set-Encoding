@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "finetuned_models/llama-2-set/checkpoint-180",
+        "data_dir": "MMLU_data/filtered_test",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 32,
+        "max_batches": 99999,
+        "tokenizer_path": "meta-llama/Llama-2-7b-chat-hf",
+        "first_tokens_differ": true
+    },
+    "results": {
+        "n_correct": 2505,
+        "n_questions": 4148,
+        "RTSD": 0.009248998161247898,
+        "accuracy": 0.6039054966248795,
+        "confusion_matrix": [
+            [
+                596,
+                161,
+                135,
+                143
+            ],
+            [
+                139,
+                641,
+                146,
+                155
+            ],
+            [
+                133,
+                138,
+                669,
+                111
+            ],
+            [
+                121,
+                130,
+                131,
+                599
+            ]
+        ]
+    }
+}

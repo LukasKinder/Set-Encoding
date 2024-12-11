@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "finetuned_models/savekeep-5-epochs/checkpoint-2890-falcon-set-balanced",
+        "data_dir": "MMLU_data/filtered_test_final",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 16,
+        "max_batches": 99999,
+        "tokenizer_path": "tiiuae/falcon-7b-instruct",
+        "first_tokens_differ": false
+    },
+    "results": {
+        "n_correct": 3982,
+        "n_questions": 13045,
+        "RTSD": 0.07499378115713791,
+        "accuracy": 0.3052510540436949,
+        "confusion_matrix": [
+            [
+                1374,
+                1033,
+                1016,
+                1054
+            ],
+            [
+                756,
+                1061,
+                839,
+                824
+            ],
+            [
+                648,
+                619,
+                840,
+                705
+            ],
+            [
+                534,
+                529,
+                506,
+                707
+            ]
+        ]
+    }
+}

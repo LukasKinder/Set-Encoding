@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "tiiuae/falcon-7b-instruct",
+        "data_dir": "MMLU_data/filtered_test_final",
+        "eval_type": "option",
+        "use_set_encoding": false,
+        "batch_size": 16,
+        "max_batches": 99999,
+        "tokenizer_path": "tiiuae/falcon-7b-instruct",
+        "first_tokens_differ": false
+    },
+    "results": {
+        "n_correct": 3717,
+        "n_questions": 13045,
+        "RTSD": 0.09351649982344715,
+        "accuracy": 0.28493675737830587,
+        "confusion_matrix": [
+            [
+                1437,
+                1261,
+                1265,
+                1265
+            ],
+            [
+                700,
+                875,
+                782,
+                729
+            ],
+            [
+                595,
+                582,
+                746,
+                611
+            ],
+            [
+                525,
+                503,
+                510,
+                659
+            ]
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "meta-llama/Llama-2-7b-chat-hf",
+        "data_dir": "MMLU_data/filtered_test",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 32,
+        "max_batches": 99999,
+        "tokenizer_path": "meta-llama/Llama-2-7b-chat-hf",
+        "first_tokens_differ": true
+    },
+    "results": {
+        "n_correct": 2025,
+        "n_questions": 4148,
+        "RTSD": 0.02286144966360306,
+        "accuracy": 0.4881870781099325,
+        "confusion_matrix": [
+            [
+                534,
+                200,
+                183,
+                183
+            ],
+            [
+                164,
+                498,
+                193,
+                164
+            ],
+            [
+                160,
+                201,
+                519,
+                158
+            ],
+            [
+                168,
+                192,
+                157,
+                474
+            ]
+        ]
+    }
+}

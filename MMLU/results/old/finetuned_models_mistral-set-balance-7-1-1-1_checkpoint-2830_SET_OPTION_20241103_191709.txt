@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "finetuned_models/mistral-set-balance-7-1-1-1/checkpoint-2830",
+        "data_dir": "MMLU_data/filtered_test_final",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 16,
+        "max_batches": 99999,
+        "tokenizer_path": "mistralai/Mistral-7B-Instruct-v0.3",
+        "first_tokens_differ": false
+    },
+    "results": {
+        "n_correct": 7042,
+        "n_questions": 13045,
+        "RTSD": 0.0025945358314084133,
+        "accuracy": 0.5398236872364891,
+        "confusion_matrix": [
+            [
+                1740,
+                515,
+                460,
+                466
+            ],
+            [
+                483,
+                1829,
+                508,
+                508
+            ],
+            [
+                476,
+                533,
+                1739,
+                529
+            ],
+            [
+                507,
+                504,
+                514,
+                1734
+            ]
+        ]
+    }
+}

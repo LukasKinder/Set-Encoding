@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model_id": "finetuned_models/falcon-set-balance-7-1-1-1/checkpoint-2895",
+        "data_dir": "MMLU_data/filtered_test_final",
+        "eval_type": "option",
+        "use_set_encoding": true,
+        "batch_size": 16,
+        "max_batches": 99999,
+        "tokenizer_path": "tiiuae/falcon-7b-instruct",
+        "first_tokens_differ": false
+    },
+    "results": {
+        "n_correct": 4007,
+        "n_questions": 13045,
+        "RTSD": 0.06335995981264121,
+        "accuracy": 0.30716749712533536,
+        "confusion_matrix": [
+            [
+                1316,
+                1050,
+                1050,
+                1014
+            ],
+            [
+                804,
+                1060,
+                774,
+                802
+            ],
+            [
+                662,
+                603,
+                880,
+                673
+            ],
+            [
+                509,
+                536,
+                561,
+                751
+            ]
+        ]
+    }
+}
