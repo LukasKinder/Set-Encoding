@@ -1,6 +1,6 @@
-## Set-Encoding
+# Set-Encoding
 
-# Cloning the Repository
+## Cloning the Repository
 
 If you haven’t already, initialize and update the submodules:
 
@@ -15,7 +15,7 @@ Alternatively, you can clone the repository with its submodules directly:
 git clone --recurse-submodules https://github.com/LukasKinder/Set-Encoding  
 ```
 
-# Virtual Environment Setup
+## Virtual Environment Setup
 
 We recommend using a virtual environment:
 
@@ -33,7 +33,7 @@ The repository includes two lists of dependencies:
 **Important:** Do not install transformers directly. Use the modified version, SetTransformers.
 
 
-# Supported Models
+## Supported Models
 
 The following models are implemented with set encoding:
 
@@ -44,7 +44,7 @@ The following models are implemented with set encoding:
  - *tiiuae/falcon-7b-instruct*
  - *microsoft/Phi-3-mini-4k-instruct*
 
-# DEMO
+## DEMO
 
 Run the demo script:
 ```bash
@@ -53,7 +53,7 @@ python demo.py
 
 This demo performs a simple experiment where a model is tasked with reasoning about lists encoded as a set.
 
-# Experiments
+## Experiments
 
 The repository includes six experiment directories:
 
