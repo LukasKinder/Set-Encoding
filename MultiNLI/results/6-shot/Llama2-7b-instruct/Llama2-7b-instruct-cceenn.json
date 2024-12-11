@@ -1,0 +1,34 @@
+{
+    "model": "meta-llama/Llama-2-7b-chat-hf",
+    "order": [
+        "contradiction",
+        "contradiction",
+        "entailment",
+        "entailment",
+        "neutral",
+        "neutral"
+    ],
+    "accuracy": 0.5372,
+    "fraction_entailment": 0.3729,
+    "fraction_neutral": 0.1339,
+    "fraction_contradiction": 0.4932,
+    "f1_score": 0.4835109438105229,
+    "confusion_matrix": [
+        [
+            2075,
+            815,
+            589
+        ],
+        [
+            1401,
+            378,
+            1344
+        ],
+        [
+            181,
+            113,
+            2919
+        ]
+    ],
+    "exactly_the_same": 126
+}

@@ -1,0 +1,31 @@
+{
+    "model": "mistralai/Mistral-7B-v0.3",
+    "order": [
+        "neutral",
+        "contradiction",
+        "entailment"
+    ],
+    "accuracy": 0.4629,
+    "fraction_entailment": 0.1847,
+    "fraction_neutral": 0.1054,
+    "fraction_contradiction": 0.7099,
+    "f1_score": 0.39920209746258556,
+    "confusion_matrix": [
+        [
+            1137,
+            614,
+            1728
+        ],
+        [
+            615,
+            379,
+            2129
+        ],
+        [
+            58,
+            42,
+            3113
+        ]
+    ],
+    "exactly_the_same": 289
+}

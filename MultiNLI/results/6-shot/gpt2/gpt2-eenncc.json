@@ -1,0 +1,34 @@
+{
+    "model": "gpt2",
+    "order": [
+        "entailment",
+        "entailment",
+        "neutral",
+        "neutral",
+        "contradiction",
+        "contradiction"
+    ],
+    "accuracy": 0.3167,
+    "fraction_entailment": 0.0,
+    "fraction_neutral": 0.1523,
+    "fraction_contradiction": 0.8477,
+    "f1_score": 0.21040713175457096,
+    "confusion_matrix": [
+        [
+            0,
+            538,
+            2941
+        ],
+        [
+            0,
+            457,
+            2666
+        ],
+        [
+            0,
+            503,
+            2710
+        ]
+    ],
+    "exactly_the_same": 21
+}

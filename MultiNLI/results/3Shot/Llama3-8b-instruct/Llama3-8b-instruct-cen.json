@@ -1,0 +1,31 @@
+{
+    "model": "meta-llama/Meta-Llama-3-8B-instruct",
+    "order": [
+        "contradiction",
+        "entailment",
+        "neutral"
+    ],
+    "accuracy": 0.6732,
+    "fraction_entailment": 0.5394,
+    "fraction_neutral": 0.1032,
+    "fraction_contradiction": 0.3574,
+    "f1_score": 0.6259074192827423,
+    "confusion_matrix": [
+        [
+            3197,
+            148,
+            134
+        ],
+        [
+            1805,
+            728,
+            590
+        ],
+        [
+            275,
+            131,
+            2807
+        ]
+    ],
+    "exactly_the_same": 141
+}

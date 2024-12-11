@@ -1,0 +1,31 @@
+{
+    "model": "microsoft/Phi-3-mini-4k-instruct",
+    "order": [
+        "neutral",
+        "contradiction",
+        "entailment"
+    ],
+    "accuracy": 0.7025,
+    "fraction_entailment": 0.4382,
+    "fraction_neutral": 0.0764,
+    "fraction_contradiction": 0.4854,
+    "f1_score": 0.64209802809696,
+    "confusion_matrix": [
+        [
+            3259,
+            60,
+            160
+        ],
+        [
+            955,
+            662,
+            1506
+        ],
+        [
+            85,
+            24,
+            3104
+        ]
+    ],
+    "exactly_the_same": 250
+}

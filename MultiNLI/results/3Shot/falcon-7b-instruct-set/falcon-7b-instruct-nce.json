@@ -1,0 +1,31 @@
+{
+    "model": "tiiuae/falcon-7b-instruct",
+    "order": [
+        "neutral",
+        "contradiction",
+        "entailment"
+    ],
+    "accuracy": 0.4223,
+    "fraction_entailment": 0.5455,
+    "fraction_neutral": 0.0672,
+    "fraction_contradiction": 0.3873,
+    "f1_score": 0.36984059753357457,
+    "confusion_matrix": [
+        [
+            2243,
+            311,
+            925
+        ],
+        [
+            1791,
+            211,
+            1121
+        ],
+        [
+            1315,
+            129,
+            1769
+        ]
+    ],
+    "exactly_the_same": 25
+}
