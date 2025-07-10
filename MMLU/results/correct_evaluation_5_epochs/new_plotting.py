@@ -180,12 +180,12 @@ plt.tight_layout()  # Leave space for legend
 #plt.suptitle("Accuracy by Training Condition and P-value", fontsize=16)
 plt.savefig("mmlu_all_results_simplified.png")
 
-if False:
+if True:
         
     colors = ["blue", "green"]
     markers = ["o", "s", "^", "D", "P"]
 
-    training_conditions = ["No finetuning","No Bias","Low Bias","Medium Bias","High Bias"]
+    training_conditions = ["No Finetuning","No Bias","Low Bias","Medium Bias","High Bias"]
     models = ["Llama2-7b","Llama3-8b","Mistral-7b","Falcon-7b"]
     conditions = ["normal", "set"]
 

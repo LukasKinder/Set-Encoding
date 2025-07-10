@@ -1,6 +1,19 @@
 import torch
 from transformers import SpecialTokensMixin
 
+special_tokens_map = {
+    "meta-llama/Llama-2-7b-chat-hf" : {"start" : "[INST]", "end" : "[/INST]"},
+    "meta-llama/Meta-Llama-3-8B-instruct" : {"start" : "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are a helpful AI assistant.<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\n\n", 
+                                             "end" : "<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>"},
+    "gpt2" : {"start" : "", "end" : "\n\n"},
+    "mistralai/Mistral-7B-Instruct-v0.3" : {"start" : "[INST]",
+                                             "end" : "[/INST]"},
+    "tiiuae/falcon-7b-instruct" : {"start" : ">>QUESTION<<",
+                                   "end" : ">>ANSWER<<"},
+    "microsoft/Phi-3-mini-4k-instruct" : {"start" : "<|user|>\n",
+                                          "end" : "<|end|>\n<|assistant|>"},                   
+}
+
 class SetEncoder():
 
     def __init__(self, tokenizer,custom_size = None):

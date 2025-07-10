@@ -35,7 +35,7 @@ The repository includes two lists of dependencies:
 
 ## Supported Models
 
-The following models are implemented with set encoding:
+The following models are implemented and ready to use with set encoding:
 
  - *meta-llama/Llama-2-7b-chat-hf*
  - *meta-llama/Meta-Llama-3-8B-instruct*
