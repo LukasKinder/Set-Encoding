@@ -16,7 +16,7 @@ from set_encoding_utils import SetEncoder, special_tokens_map
 # modifies its answers based on the order of items, demonstrating its order sensitivity.
 
 # This flag can be used to switch Set-encoding on and off
-USE_SET_ENCODING = True
+USE_SET_ENCODING = True # Repeat the experiment with this set to False to observe the effect of set-encoding
 
 # Possible Modedles adapted for set encoding: 
 # "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Meta-Llama-3-8B-instruct", "gpt2","mistralai/Mistral-7B-Instruct-v0.3","tiiuae/falcon-7b-instruct", "microsoft/Phi-3-mini-4k-instruct"
